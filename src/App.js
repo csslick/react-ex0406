@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>{name} react app</h1>
+      <h1>{name} test2 branch 작업</h1>
       <Image />
       <CSSModule />
       
