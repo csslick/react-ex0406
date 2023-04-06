@@ -1,0 +1,19 @@
+/* Image.module.css */
+.container {
+    background: #ccc;
+}
+
+img {
+    width: 33.33%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    outline: 1px solid #333;
+    padding: 20px;
+}

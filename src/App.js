@@ -3,6 +3,7 @@ import './App.css';
 import Box from './components/Box';
 import ColorBox from './components/ColorBox';
 import CSSModule from './components/CSSModule';
+import Image from './components/Image';
 
 function App() {
   let name = "hello";
@@ -18,6 +19,7 @@ function App() {
   return (
     <div className="App">
       <h1>{name} react app</h1>
+      <Image />
       <CSSModule />
       
       <ColorBox />
