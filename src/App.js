@@ -18,7 +18,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>{name} react app</h1>
+      <h1>{name} master작업중</h1>
       <Image />
       <CSSModule />
       
