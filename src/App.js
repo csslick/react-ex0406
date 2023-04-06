@@ -4,6 +4,8 @@ import Box from './components/Box';
 import ColorBox from './components/ColorBox';
 import CSSModule from './components/CSSModule';
 import Image from './components/Image';
+// src에 있는 이미지 데이터 변수
+import logo from './logo.svg';
 
 function App() {
   let name = "hello";
@@ -19,6 +21,7 @@ function App() {
   return (
     <div className="App">
       <h1>{name} master작업중</h1>
+      <img src={logo} alt='logo' />
       <Image />
       <CSSModule />
       
