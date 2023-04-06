@@ -2,6 +2,8 @@
 import './App.css';
 import Box from './components/Box';
 import ColorBox from './components/ColorBox';
+import CSSModule from './components/CSSModule';
+
 function App() {
   let name = "hello";
   let data = [
@@ -16,6 +18,8 @@ function App() {
   return (
     <div className="App">
       <h1>{name} react app</h1>
+      <CSSModule />
+      
       <ColorBox />
       {/* 외부 함수 호출 */}
       <button onClick={함수}>Button</button>
