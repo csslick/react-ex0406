@@ -8,6 +8,8 @@
   height: 200px;
   border: 2px solid #333;
   display: inline-block;
+  /* 이미지경로: 리액트 경로(src) */
+  background-image: url('./logo.svg');
 }
 
 .bgOrange {
